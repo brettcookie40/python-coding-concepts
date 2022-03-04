@@ -27,3 +27,19 @@ class GoodBoss(Boss):
     def encourage(self):
         # Good bosses encourage their employees!
         print("The team cheers, starts shouting awesome slogans then gets back to work!")
+
+
+
+# Or we can go the fruit route
+class Fruit:
+    def __init__(self, flavor):
+        self.flavor = flavor 
+        print("I'm a fruit")
+
+class Citrus(Fruit):
+    def _init__(self, flavor):
+        super().__init__(self, flavor)
+
+    def declare_citrus(self):
+        print("I'm citrus")
+
